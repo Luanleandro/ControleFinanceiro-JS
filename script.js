@@ -61,6 +61,7 @@ const init = () => {
   TransactionsUL.innerHTML = "";
 
   transactions.forEach(addTransactionIntoDOM);
+  
   updatebalanceValues();
 };
 
